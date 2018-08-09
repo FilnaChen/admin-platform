@@ -1,0 +1,23 @@
+.adminTable {
+	width: 96%;
+	margin: 10px 2%;
+	padding: 10px 2%;
+	background-color: #fff;
+	min-height: ~"calc(100vh - 100px)";
+	:global {
+		.ant-table-thead > tr > th, .ant-table-tbody > tr > td {
+			text-align: center;
+		}
+	}
+}
+.userForm {
+	:global {
+		.ant-table-tbody > tr > td{
+			border-bottom: 1px solid #f4f4f4;
+			border-left: 1px solid #f4f4f4;
+		}
+		.ant-table-tbody > tr > td:nth-child(3n){
+			border-right: 1px solid #f4f4f4;
+		}
+	}
+}

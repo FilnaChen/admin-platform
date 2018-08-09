@@ -1,0 +1,382 @@
+{
+	"loginInfo": [
+		{
+			"id": 1,
+			"username": "admin",
+			"password": "admin"
+		},
+		{
+			"id": 2,
+			"username": "guest",
+			"password": "guest"
+		}
+	],
+	"menus": [
+		{
+			"name": "管理平台",
+			"icon": "mail",
+			"path": "/platform"
+		},
+		{
+			"name": "用户管理",
+			"icon": "user",
+			"path": "/user",
+			"children": [
+				{
+					"name": "管理员",
+					"path": "/user/admin"
+				},
+				{
+					"name": "管理员角色",
+					"path": "/user/adminRole"
+				},
+				{
+					"name": "用户",
+					"path": "/user/userRole"
+				}
+			]
+		},
+		{
+			"name": "系统管理",
+			"icon": "appstore",
+			"path": "/system",
+			"children": [
+				{
+					"name": "修改密码",
+					"path": "/system/pwd"
+				}
+			]
+		},
+		{
+			"name": "前端分页",
+			"icon": "message",
+			"path": "/pagination",
+			"children": [
+				{
+					"name": "分类管理",
+					"path": "/pagination/classify"
+				}
+			]
+		},
+		{
+			"name": "测试导航",
+			"icon": "setting",
+			"path": "/daohang",
+			"children": [
+				{
+					"name": "二级导航1",
+					"path": "/daohang/second1"
+				},
+				{
+					"name": "二级导航2",
+					"path": "/daohang/second2"
+				}
+			]
+		},
+		{
+			"name": "UI组件",
+			"icon": "like-o",
+			"path": "/ui",
+			"children": [
+				{
+					"name": "文件上传",
+					"path": "/ui/upload"
+				},
+				{
+					"name": "音频视频",
+					"path": "/ui/audio"
+				},
+				{
+					"name": "下拉操作菜单",
+					"path": "/ui/select"
+				},
+				{
+					"name": "LzEditor",
+					"path": "/ui/editor"
+				}
+			]
+		}
+	],
+	"adminInfo": [
+        {
+            "key": 1,
+            "username": "James Jackson",
+            "sex": "girl",
+            "phone": 642530348815,
+            "email": "o.gwoj@emojd.tw",
+            "role": "teacher"
+        },
+        {
+            "key": 2,
+            "username": "Edward Wilson",
+            "sex": "girl",
+            "phone": 727278443797,
+            "email": "h.vkkklq@puixhrsxs.mil",
+            "role": "student"
+        },
+        {
+            "key": 3,
+            "username": "Edward Young",
+            "sex": "girl",
+            "phone": 533077961071,
+            "email": "g.kmcx@xdyoxagwsy.ck",
+            "role": "interpretor"
+        },
+        {
+            "key": 4,
+            "username": "Margaret Hall",
+            "sex": "girl",
+            "phone": 216608454088,
+            "email": "e.oeqfk@ydhohbz.ru",
+            "role": "student"
+        },
+        {
+            "key": 5,
+            "username": "Frank Miller",
+            "sex": "girl",
+            "phone": 143791172369,
+            "email": "o.wxcxgjva@dyqfzq.fm",
+            "role": "interpretor"
+        },
+        {
+            "key": 6,
+            "username": "Jason Hall",
+            "sex": "boy",
+            "phone": 582260157911,
+            "email": "j.ssnhljg@yvjst.sr",
+            "role": "programmer"
+        },
+        {
+            "key": 7,
+            "username": "Helen Walker",
+            "sex": "girl",
+            "phone": 752634730085,
+            "email": "a.sanmjckp@omxboie.gu",
+            "role": "interpretor"
+        },
+        {
+            "key": 8,
+            "username": "Kevin Jones",
+            "sex": "boy",
+            "phone": 659923845580,
+            "email": "h.zcy@hcrtmlmgfp.nz",
+            "role": "policeman"
+        },
+        {
+            "key": 9,
+            "username": "Steven Thomas",
+            "sex": "girl",
+            "phone": 699474416578,
+            "email": "d.lsi@nbbajrunw.ae",
+            "role": "programmer"
+        },
+        {
+            "key": 10,
+            "username": "Jason Martin",
+            "sex": "boy",
+            "phone": 768973178736,
+            "email": "l.rplkwdvr@knharpzk.tn",
+            "role": "teacher"
+        },
+        {
+            "key": 11,
+            "username": "Jose Thompson",
+            "sex": "girl",
+            "phone": 569747103346,
+            "email": "d.vaxrmczu@xogfwwck.mt",
+            "role": "policeman"
+        },
+        {
+            "key": 12,
+            "username": "Edward Thomas",
+            "sex": "girl",
+            "phone": 631513564266,
+            "email": "n.gvkvvmf@urvdcjgmix.ug",
+            "role": "programmer"
+        },
+        {
+            "key": 13,
+            "username": "Carol Clark",
+            "sex": "girl",
+            "phone": 362546602246,
+            "email": "y.avpjsu@xphvejep.sz",
+            "role": "programmer"
+        },
+        {
+            "key": 14,
+            "username": "Daniel Lopez",
+            "sex": "boy",
+            "phone": 108368652929,
+            "email": "b.aqosqgcgi@tnxqaxfc.kw",
+            "role": "teacher"
+        },
+        {
+            "key": 15,
+            "username": "Donald Jones",
+            "sex": "boy",
+            "phone": 763346406618,
+            "email": "c.tojve@wegmy.sa",
+            "role": "student"
+        },
+        {
+            "key": 16,
+            "username": "William Lewis",
+            "sex": "boy",
+            "phone": 293720809351,
+            "email": "j.jdxkqjxg@ndxdvu.si",
+            "role": "interpretor"
+        },
+        {
+            "key": 17,
+            "username": "Daniel Garcia",
+            "sex": "girl",
+            "phone": 524132590246,
+            "email": "z.ieggkpcdo@mvemdrtg.qa",
+            "role": "interpretor"
+        },
+        {
+            "key": 18,
+            "username": "Timothy Lewis",
+            "sex": "girl",
+            "phone": 867897143753,
+            "email": "l.wlipdbky@rydw.ga",
+            "role": "interpretor"
+        },
+        {
+            "key": 19,
+            "username": "Patricia Jones",
+            "sex": "boy",
+            "phone": 391365403421,
+            "email": "d.grlccsxcq@dpwemm.lk",
+            "role": "policeman"
+        },
+        {
+            "key": 20,
+            "username": "Kenneth Gonzalez",
+            "sex": "boy",
+            "phone": 420274210476,
+            "email": "k.kbndhqmn@rplxt.ky",
+            "role": "teacher"
+        },
+        {
+            "key": 21,
+            "username": "Nancy Lee",
+            "sex": "girl",
+            "phone": 429300439096,
+            "email": "g.qftfduiqdl@qqjiwy.zr",
+            "role": "interpretor"
+        },
+        {
+            "key": 22,
+            "username": "Barbara Davis",
+            "sex": "girl",
+            "phone": 598705982240,
+            "email": "a.sota@wvydmxwi.gl",
+            "role": "teacher"
+        },
+        {
+            "key": 23,
+            "username": "Larry Garcia",
+            "sex": "boy",
+            "phone": 570414471061,
+            "email": "d.pvybbr@tywjxbu.in",
+            "role": "interpretor"
+        },
+        {
+            "key": 24,
+            "username": "Sandra Robinson",
+            "sex": "boy",
+            "phone": 954666643987,
+            "email": "e.nfvidsf@ntofs.name",
+            "role": "teacher"
+        },
+        {
+            "key": 25,
+            "username": "Mark Davis",
+            "sex": "boy",
+            "phone": 836799129737,
+            "email": "u.wolhz@igwtf.mg",
+            "role": "teacher"
+        },
+        {
+            "key": 26,
+            "username": "Jose Lee",
+            "sex": "boy",
+            "phone": 430747882085,
+            "email": "t.krcvsrn@jdnno.zr",
+            "role": "interpretor"
+        },
+        {
+            "key": 27,
+            "username": "Dorothy Walker",
+            "sex": "boy",
+            "phone": 156558957145,
+            "email": "z.cxso@lgus.mx",
+            "role": "teacher"
+        },
+        {
+            "key": 28,
+            "username": "Kimberly Martinez",
+            "sex": "boy",
+            "phone": 464480712416,
+            "email": "s.yvffovl@phxquyxli.cy",
+            "role": "policeman"
+        },
+        {
+            "key": 29,
+            "username": "Jeffrey Jackson",
+            "sex": "boy",
+            "phone": 401238002216,
+            "email": "p.oencbnvkr@yekrrt.ai",
+            "role": "programmer"
+        },
+        {
+            "key": 30,
+            "username": "Matthew Clark",
+            "sex": "boy",
+            "phone": 990347308260,
+            "email": "f.qjp@gut.ng",
+            "role": "policeman"
+        },
+        {
+            "key": 31,
+            "username": "George Hall",
+            "sex": "girl",
+            "phone": 527853171003,
+            "email": "f.zshs@nucdwsah.ao",
+            "role": "programmer"
+        },
+        {
+            "key": 32,
+            "username": "Angela Young",
+            "sex": "boy",
+            "phone": 725379193273,
+            "email": "l.kuevfdo@icuyoe.sg",
+            "role": "teacher"
+        },
+        {
+            "key": 33,
+            "username": "Michelle Miller",
+            "sex": "girl",
+            "phone": 692157710862,
+            "email": "j.gpjkxv@sfakofh.pr",
+            "role": "programmer"
+        },
+        {
+            "key": 34,
+            "username": "Kimberly Miller",
+            "sex": "girl",
+            "phone": 914368925212,
+            "email": "d.dirdtrflv@ujotzxe.de",
+            "role": "teacher"
+        },
+        {
+            "key": 35,
+            "username": "Jennifer White",
+            "sex": "girl",
+            "phone": 112417222937,
+            "email": "b.rxom@lcwgc.info",
+            "role": "programmer"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.adminTable {
+	width: 96%;
+	margin: 10px 2%;
+	padding: 10px 2%;
+	background-color: #fff;
+}
+.searchForm {
+	:global {
+		.ant-select-selection__rendered,.ant-form-inline,.ant-form-item {
+			margin-right: 0px;
+			margin-left: 0px;
+		}
+		.ant-select-selection {
+			border-radius: 0px;
+			width: 70px;
+			font-size: 12px;
+			color: #666;
+			padding-left: 5px;
+		}
+		.ant-input {
+			border-radius: 0px;
+			width: 200px;
+			margin-left: -2px;
+		}
+		.ant-btn {
+			border-radius: 0px;
+			margin-left: -2px;
+		}
+		.ant-input {
+			outline: none;
+		}
+	}
+}
+.userForm {
+	:global {
+		.ant-table-tbody > tr > td{
+			border-bottom: 1px solid #f4f4f4;
+			border-left: 1px solid #f4f4f4;
+		}
+		.ant-table-tbody > tr > td:nth-child(5n){
+			border-right: 1px solid #f4f4f4;
+		}
+	}
+}
